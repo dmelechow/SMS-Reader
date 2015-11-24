@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark"
+    tools:context="com.example.asus1.smsreader.ListSMSFragment">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.shppandroid1.app.MainActivity">
+        <ListView
+            android:id="@+id/lvSMS"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:dividerHeight="5dp"
+            android:layout_marginRight="10dp">
+        </ListView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</FrameLayout>

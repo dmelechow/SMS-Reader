@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SMSReader</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="left_three_seconds">Осталось 3 секунд</string>
+</resources>
